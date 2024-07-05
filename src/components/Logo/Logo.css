@@ -1,0 +1,11 @@
+.logo{
+    font-size: 2rem;
+    font-family:var(--title_text);
+    color: white;
+    user-select: none;
+    cursor: pointer;
+}
+
+.logo-design{
+    color: orange;
+}

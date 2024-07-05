@@ -1,0 +1,95 @@
+{
+        "animeNews": [
+          {
+            "id": 1,
+            "title": "New 'Attack on Titan' Final Season Trailer Released",
+            "summary": "The highly anticipated trailer for the final season of 'Attack on Titan' has been released, showcasing intense battles and dramatic moments.",
+            "publicationDate": "2024-07-05",
+            "author": "Jane Doe",
+            "content": "The new trailer for the final season of 'Attack on Titan' has fans buzzing with excitement. Featuring breathtaking animation and heart-pounding action sequences, the trailer hints at the epic conclusion of the series. The final season is set to premiere later this year.",
+            "imageUrl": "https://example.com/images/aot-final-season.jpg",
+            "tags": ["Attack on Titan", "Trailer", "Final Season"]
+          },
+          {
+            "id": 2,
+            "title": "'My Hero Academia' Season 6 Release Date Announced",
+            "summary": "Fans of 'My Hero Academia' can mark their calendars as the release date for Season 6 has been officially announced.",
+            "publicationDate": "2024-07-04",
+            "author": "John Smith",
+            "content": "'My Hero Academia' will be returning for its sixth season on October 3rd, 2024. The upcoming season promises to delve deeper into the ongoing battles between heroes and villains, with new character arcs and thrilling storylines.",
+            "imageUrl": "https://example.com/images/mha-season-6.jpg",
+            "tags": ["My Hero Academia", "Season 6", "Release Date"]
+          },
+          {
+            "id": 3,
+            "title": "'Demon Slayer' Movie Breaks Box Office Records",
+            "summary": "The latest 'Demon Slayer' movie has shattered box office records, becoming the highest-grossing anime film of all time.",
+            "publicationDate": "2024-07-03",
+            "author": "Emily Johnson",
+            "content": "The 'Demon Slayer' movie, titled 'Demon Slayer: Infinity Train', has achieved unprecedented success at the box office. With stunning animation and an emotionally gripping story, the film has captivated audiences worldwide and set new records for anime films.",
+            "imageUrl": "https://example.com/images/demon-slayer-movie.jpg",
+            "tags": ["Demon Slayer", "Movie", "Box Office"]
+          },
+          {
+            "id": 4,
+            "title": "Studio Ghibli Announces New Film Project",
+            "summary": "Studio Ghibli has announced a new film project, exciting fans with the promise of another magical adventure.",
+            "publicationDate": "2024-07-02",
+            "author": "Michael Lee",
+            "content": "Studio Ghibli, renowned for its beautifully animated films, has revealed plans for a new project. Details are still under wraps, but the studio has hinted at a story filled with wonder and imagination. The film is currently in the early stages of production.",
+            "imageUrl": "https://example.com/images/studio-ghibli-new-film.jpg",
+            "tags": ["Studio Ghibli", "New Film", "Announcement"]
+          },
+          {
+            "id": 5,
+            "title": "'One Piece' Celebrates 25th Anniversary with Special Episode",
+            "summary": "'One Piece' is celebrating its 25th anniversary with a special episode, revisiting iconic moments from the series.",
+            "publicationDate": "2024-07-01",
+            "author": "Sarah Brown",
+            "content": "To commemorate its 25th anniversary, 'One Piece' will release a special episode featuring memorable scenes and fan-favorite characters. This milestone celebration highlights the enduring popularity and impact of the long-running series.",
+            "imageUrl": "https://example.com/images/one-piece-25th-anniversary.jpg",
+            "tags": ["One Piece", "Anniversary", "Special Episode"]
+          }
+
+
+         
+        ],
+
+
+         "animeVids":[
+
+            {
+                "id": 1,
+                "title": "New 'Attack on Titan' Final Season Trailer Released",
+                "summary": "The highly anticipated trailer for the final season of 'Attack on Titan' has been released, showcasing intense battles and dramatic moments.",
+                "publicationDate": "2024-07-05",
+                "author": "Jane Doe",
+                "content": "The new trailer for the final season of 'Attack on Titan' has fans buzzing with excitement. Featuring breathtaking animation and heart-pounding action sequences, the trailer hints at the epic conclusion of the series. The final season is set to premiere later this year.",
+                "imageUrl": "https://example.com/images/aot-final-season.jpg",
+                "tags": ["Attack on Titan", "Trailer", "Final Season"]
+            },
+
+            {
+                "id": 2,
+                "title": "New 'Attack on Titan' Final Season Trailer Released",
+                "summary": "The highly anticipated trailer for the final season of 'Attack on Titan' has been released, showcasing intense battles and dramatic moments.",
+                "publicationDate": "2024-07-05",
+                "author": "Jane Doe",
+                "content": "The new trailer for the final season of 'Attack on Titan' has fans buzzing with excitement. Featuring breathtaking animation and heart-pounding action sequences, the trailer hints at the epic conclusion of the series. The final season is set to premiere later this year.",
+                "imageUrl": "https://example.com/images/aot-final-season.jpg",
+                "tags": ["Attack on Titan", "Trailer", "Final Season"]
+            }
+            
+
+            
+
+
+
+         ]
+
+
+
+       
+
+
+}

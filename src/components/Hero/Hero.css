@@ -1,0 +1,29 @@
+
+
+.hero-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Poppins";
+    font-size: 2rem;
+    
+}
+
+.hero-details{
+    
+
+    background-color: var(--container_color);
+}
+
+.Hero{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    background-color: var(--container_color);
+    
+
+
+}
