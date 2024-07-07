@@ -7,8 +7,14 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+  user-select: none;
 
 
+}
+
+body{
+  background-color: var(--component_color);
+ 
 }
 
 :root{
@@ -26,7 +32,7 @@
 
 .Pages{
   
-
+ 
   border-bottom: 2px solid rgb(60,60,60);
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -36,5 +42,6 @@
 .root-layout{
 
   overflow-x: hidden;
+  background-color: var(--container_color);
 }
 

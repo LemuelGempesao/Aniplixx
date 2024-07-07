@@ -1,0 +1,38 @@
+.news-item-cont{
+
+  
+    background-color: rgb(40, 40, 40);
+    color: white;
+    padding: 10px;
+    font-family: "Poppins";
+    text-align: center;
+    
+
+
+}
+
+.news-item-title{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+}
+
+.news-item-date{
+    color: gray;
+}
+
+.news-item-content{
+
+    padding-top: 30px;
+    text-align: justify;
+    font-size: medium;
+}
+
+.see{
+
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid orange;
+}

@@ -1,8 +1,11 @@
 import React from 'react'
+import NewsWrapper from '../../components/NewsWrapper/NewsWrapper'
 
 const News = () => {
   return (
-    <div className='Pages'>News</div>
+    <>
+      <NewsWrapper/>
+    </>
   )
 }
 

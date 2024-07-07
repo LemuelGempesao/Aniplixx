@@ -1,7 +1,8 @@
 import React from 'react'
-import News from '../News/News'
+import NewsWrapper from '../../components/NewsWrapper/NewsWrapper'
 import Watch from '../Watch/Watch'
 import Hero from '../../components/Hero/Hero'
+
 
 
 
@@ -10,7 +11,8 @@ const Home = () => {
     <section className='Home Pages'>
       <div className='home-container'>
       <Hero />
-      <News />
+      <NewsWrapper isHome={true}/>
+      
       <Watch isHome={true} />
       </div>
 
