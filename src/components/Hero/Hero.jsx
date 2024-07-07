@@ -4,31 +4,25 @@ import './Hero.css'
 import { heropic } from '../../constants'
 const Hero = () => {
     return (
-        <div className='Hero'>
+        <div className='Hero'>    
             <div className="hero-details">
                 <h1 className='hero-title'>
                     <Lg gradient={["to left", "white, orange"]}>
                         Binge your favorite Anime & Manga Anytime!
-
                     </Lg>
-
-                    <span></span>
                 </h1>
-
             </div>
 
-            <img
-                src={heropic}
-                width={600}
-                height={600}>
-            </img>
-
-            <div className="short-details">
-
+            <div className='img-cont'>
+                <img
+                    src={heropic}
+                    alt = "cute kawai"
+                    width={400}
+                    height={500}
+                    >
+                    
+                </img>
             </div>
-
-
-
         </div>
     )
 }

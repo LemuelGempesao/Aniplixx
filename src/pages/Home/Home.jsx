@@ -9,11 +9,11 @@ import Hero from '../../components/Hero/Hero'
 const Home = () => {
   return (
     <section className='Home Pages'>
+
       <div className='home-container'>
-      <Hero />
-      <NewsWrapper isHome={true}/>
-      
-      <Watch isHome={true} />
+        <Hero />
+        <NewsWrapper isHome={true} />
+        <Watch isHome={true} />
       </div>
 
     </section>

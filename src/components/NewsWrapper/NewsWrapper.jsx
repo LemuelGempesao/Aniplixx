@@ -51,7 +51,7 @@ const NewsWrapper = ({ isHome = false }) => {
                 <Lg gradient={["to right", "orange, white"]}>News</Lg></h1>
 
 
-            <div className={`news-items-container ${isHome? "half" : ""}`}>
+            <div className={`news-items-container`}>
 
                 {loading ?
                     <CircleLoader color='orange' size={80} />
