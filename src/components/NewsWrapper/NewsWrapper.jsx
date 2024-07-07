@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { CircleLoader } from 'react-spinners'
+import Loader from '../Loader/Loader';
 import NewsItem from '../NewsItem/NewsItem';
 import './NewsWrapper.css'
 import { LinearGradient as Lg } from 'react-text-gradients';
@@ -51,29 +51,33 @@ const NewsWrapper = ({ isHome = false }) => {
                 <Lg gradient={["to right", "orange, white"]}>News</Lg></h1>
 
 
-            <div className={`news-items-container`}>
 
-                {loading ?
-                    <CircleLoader color='orange' size={80} />
-                    :
-                    (news.map(item => {
+            {
+                loading? <Loader/> :
+                <div className={`news-items-container`}>
+                    {(news.map(item => {
                         return (
                             <NewsItem
+                                key={item.id}
                                 title={item.title}
                                 publicationDate={item.publicationDate}
                                 content={item.content} />
                         )
 
-                    }))
-                }
+                    }))}
             {isHome && 
             <div className='see-more-news'>
                 <Link to ='./news'><h1>See More News</h1></Link>
             </div>}
             </div>
 
+
+
+
+            }
             
-           
+            
+    
 
         </div>
          )
